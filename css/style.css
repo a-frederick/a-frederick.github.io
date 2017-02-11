@@ -25,6 +25,8 @@ ul{
   padding-right: 20px;
   color: #ffffff;
 }
+
+
 /*Header*/
 header{
   background:#35424a;
@@ -94,7 +96,7 @@ float: left;
 }
 #newsletter input[type="email"]{
   padding: 4px;
-  height: 25px;
+  height: 38px;
   width: 250px;
 }
 /*Boxes*/
