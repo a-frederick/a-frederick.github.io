@@ -53,14 +53,14 @@ border-color:  #3b5784;
 
 /*Header*/
 header{
-  background:#35424a;
-  color:#ffffff;
+  background:#c3cee0;
+  color:#595959;
   padding-top: 30px;
   min-height: 70px;
-  border-bottom: #e8491d 3px solid;
+  border-bottom: #3b5784 3px solid;
 }
 header a{
-  color:#ffffff;
+  color:#595959;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 16px;
@@ -86,16 +86,16 @@ header li{
     font-weight: bold;
   }
   header a:hover{
-    color:#cccccc;
+    color:#021535;
     font-weight: bold;
   }
 
-  /*Show Case*/
+  /*Show Case 0 -1400px*/
 #showcase{
   min-height: 400px;
-  background: url('../img/showcase2.jpg') no-repeat 0 -1400px ;
+  background: url('../img/technology.png') no-repeat  ;
   text-align: center;
-  color: #ffffff;
+  color: #595959;
 }
 #showcase h1{
   margin-left: 100px;
@@ -231,7 +231,7 @@ float: left;
 footer{
   padding: 20px;
   margin-top: 20px;
-  color: #ffffff;
-  background-color: #e8491d;
+  color: #595959;
+  background-color: #c3cee0;
   text-align: center;
 }
