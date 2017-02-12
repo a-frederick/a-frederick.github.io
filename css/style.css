@@ -1,10 +1,12 @@
 body{
 font-family: Arial, Helvetica, sans-serif;
-font-siz:15px;
+font-size:14px;
 line-height:1.5;
 padding: 0;
 margin: 0;
-background-color:#c8cace;
+background-color:#e3e7ed;
+color: #595959;
+/*background-color:#c8cace*/;
 }
 
 /*Global*/
@@ -12,6 +14,13 @@ background-color:#c8cace;
   width:80%;
   margin:auto;
   overflow: hidden;
+}
+.move_left{
+  float: left;
+}
+.move_right{
+
+  float: right;
 }
 ul{
   margin:0;
@@ -26,6 +35,21 @@ ul{
   color: #ffffff;
 }
 
+.bar{
+  width:450px;
+
+}
+
+.heading_cat{
+  float:left;
+  width:100px;
+  color:#6a7b96;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+hr{
+border-color:  #3b5784;
+}
 
 /*Header*/
 header{
@@ -58,7 +82,7 @@ header li{
     margin-top: 10px;
   }
   header .highlight, header .current a{
-    color:#e8491d;
+    color:#3b5784;
     font-weight: bold;
   }
   header a:hover{
@@ -81,6 +105,95 @@ header li{
 #showcase p{
   font-size: 20px;
 }
+
+
+
+/* Contact Info*/
+#contact_info .container{
+  float:right;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:14px;
+  line-height:.8;
+  padding:0;
+  margin-top:10px;
+  width:500px;
+}
+
+/*Branding Qualification*/
+#branding_qualification h3{
+  background: #3b5784;
+  color:#ffffff;
+
+}
+/*Professional Summary*/
+#professional_summary p{
+
+  margin: 0 20px 40px 200px;
+
+}
+
+
+/*COMPETENCIES AND TECHNICAL CAPABILITIES*/
+#competencies ul {
+  list-style: none;
+  margin:0 400px 0 20px;
+
+}
+#competencies ul li:before{
+  content:'✓  ';
+
+}
+.straight {
+  display:inline;
+  padding: 0 20px 0 0;
+}
+.progress-bar{
+  background:#3b5784;
+}
+#competencies .competencies_right{
+    margin: 0 20px 40px 200px;
+}
+
+/* PROFESSIONAL AND INDUSTRY EXPERIENCE*/
+#professional .professional_right{
+    margin: 0 20px 40px 200px;
+}
+
+#professional ul {
+  list-style: none;
+  margin:0 350px 0 20px;
+}
+#professional ul li:before{
+  content:'✓  ';
+}
+
+/*PROFESSIONAL AND INDUSTRY EXPERIENCE*/
+#self_development .development_right{
+  margin: 0 20px 40px 200px;
+
+}
+/*VOLUNTARY & CIVIL PARTICIPATION*/
+#participation .participation_right{
+    margin: 0 20px 40px 200px;
+}
+/* PERSONAL ACHIEVEMENTS*/
+
+#achievements .achievements_right{
+  margin: 0 20px 40px 200px;
+}
+
+#achievements ul {
+  list-style: none;
+  margin:0 350px 0 10px;
+}
+#achievements ul li:before{
+  content:'✓  ';
+}
+/*References*/
+#references .references_right{
+  margin: 0 20px 40px 200px;
+}
+
 /*Newsletter*/
 #newsletter{
   padding: 15px;
